@@ -1,0 +1,28 @@
+
+.botao{
+    padding: auto;
+    text-decoration: none;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    display: inline-block;
+    font: 700 .750rem "Red Hat Display", sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 15px 15px -2px var(--cor-2);
+}
+
+.botao:hover{
+    background: var(--cor-4-1);
+}
+
+
+.botao-sub:hover{
+    text-decoration: none;
+    color: var(--cor-4-1);
+}
+
+.botao-discreto:hover{
+    color: var(--cor-5);
+}
