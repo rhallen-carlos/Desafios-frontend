@@ -1,0 +1,10 @@
+@import "./componentes/componentes.css";
+@import "./componentes/cores.css";
+@import "./componentes/tipografia.css";
+@import "./geral/geral.css";
+@import "./home/home.css";
+@import "./home/vantagens.css";
+@import "./home/transferencia.css";
+@import "./home/trabalho.css";
+@import "./home/disponibilidade.css";
+@import "./geral/rodape.css";

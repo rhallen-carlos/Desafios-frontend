@@ -1,0 +1,80 @@
+.rodape-bg{
+    padding: 40px 20px;
+}
+.rodape{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.rodape-logo{
+    width: 50px;
+}
+.rodape-lista-links li>a{
+    color: var(--cor-4);
+}
+
+.rodape-lista-links{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+
+.rodape-lista-links .li-2{
+    grid-row: 2;
+}
+
+.rodape-lista-links .li-4{
+    grid-row: 2;
+}
+
+.rodape-links-sociais img{
+    display: block;
+}
+
+.rodape-links-sociais{
+    display: flex;
+    gap: 20px;
+}
+
+.rodape-lista-links a:hover{
+    color: var(--cor-1);
+}
+
+.rodape-links-sociais a:hover{
+    color: var(--cor-1);
+}
+
+@media (max-width:1022px){
+    .rodape{
+        gap: 40px;
+    }
+}
+
+@media (max-width: 900px){
+    .rodape{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 750px){
+    .rodape-lista-links{
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .rodape-lista-links .li-2{
+        grid-row: initial;
+    }
+    
+    .rodape-lista-links .li-4{
+        grid-row: initial;
+    }
+    .rodape-lista-links li{
+        text-align: center;
+    }
+}

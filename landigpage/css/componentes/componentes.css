@@ -1,0 +1,58 @@
+.bottom-1{
+    margin-bottom: 20px;
+}
+
+.bottom-2{
+    margin-bottom: 60px;
+}
+
+.transferencia-botoes{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.botao-1{
+    border-radius: 50px;
+    box-shadow: 0 10px 30px var(--cor-1-2);
+}
+
+.botao-2{
+    border-radius: 50px;
+    box-shadow: 0 10px 30px var(--cor-2-2);
+}
+
+.botao-ios{
+    padding: 10px 30px;
+    background: var(--cor-1);
+    border: none;
+    color: var(--cor-0);
+    border-radius: 50px;    
+    box-shadow: 0 2.5px var(--cor-1-1);
+    display: block;
+}
+
+.botao-ios:hover{
+    background: var(--cor-1-1);
+}
+
+.botao-mac{
+    padding: 10px 30px;
+    background: var(--cor-2);
+    border: none;
+    color: var(--cor-0);
+    border-radius: 50px;   
+    box-shadow: 0 2.5px var(--cor-2-1);
+    display: block;
+}
+.botao-mac:hover{
+    background: var(--cor-2-2);
+}
+
+
+@media (max-width:458px) {
+   .botao-1{
+        margin-bottom: 20px;
+   }    
+}

@@ -1,0 +1,19 @@
+.transferencia-bg{
+    min-height: 430px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.transferencia-dados{
+    max-width: 800px;
+    text-align: center;
+}
+.transferencia-dados p{
+    max-width: 650px;
+
+}
+
+.transferencia-dados img{
+    width: 100%;
+}

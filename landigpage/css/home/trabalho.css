@@ -1,0 +1,44 @@
+.trabalho-bg{
+    padding: 20px;
+}
+.trabalho{
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.trabalho-lista{   
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 70px;
+    margin-bottom: 60px;
+
+}
+
+.trabalho-lista li{
+    max-width: 300px;
+    text-align: center;
+}
+
+.trabalho-empresas-listas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 70px;
+}
+
+
+@media (max-width:1100px){
+    .trabalho-lista{
+        gap: 30px;
+    }
+    .trabalho-empresas-listas{
+        padding-top: 60px;
+        margin-bottom: 60px;
+        flex-direction: column;
+        align-items: center;
+    }
+}
