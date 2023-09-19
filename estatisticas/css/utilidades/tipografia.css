@@ -1,0 +1,18 @@
+.font-1-s-p4{
+    font: 400 .875rem/1.5rem "Inter", sans-serif;
+}
+.font-1-s-p7{
+    font: 700 1.25rem/1.5rem "Inter", sans-serif;
+}
+
+.font-1-s-p7-g{
+    font: 700 2rem/2.5rem "Inter", sans-serif;
+}
+
+.font-2-s-p4{
+    font: 400 .938rem/1.5rem "Lexend Deca", sans-serif;
+}
+
+.font-upc{
+    text-transform: uppercase;
+}
