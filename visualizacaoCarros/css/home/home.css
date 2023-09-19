@@ -1,0 +1,44 @@
+.introducao-bg{ 
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.introducao{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card-sedan{
+    border-radius: 10px 0 0 10px ;
+}
+
+.card-luxo{
+    border-radius: 0 10px 10px 0;
+}
+
+.card-sedan a:hover{
+    color: var(--cor-1);
+}
+.card-suv a:hover{
+    color: var(--cor-2);
+}
+.card-luxo a:hover{
+    color: var(--cor-3);
+}
+
+
+@media (max-width: 878px){
+    .introducao{
+        grid-template-columns: 1fr;
+    }
+    .card-sedan{
+        border-radius: 10px 10px 0 0;
+    }
+    .card-luxo{
+        border-radius: 0 0 10px 10px;
+    }
+}
+
