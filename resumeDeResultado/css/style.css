@@ -1,0 +1,144 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+:root{
+  --azul:#1125d4;
+  --azulClaro:#aeb1cc;
+  --azulEscuro:#070a2b;
+  --azulaGradiente: linear-gradient(0deg, #1125d4, #1322aa 100%);
+  --verde:hsl(166, 100%, 37%);
+  --verdeClaro:hsl(166, 57%, 93%);
+  --amarelo:hsl(39, 100%, 56%);
+  --amareloClaro:hsl(38, 100%, 93%);
+  --vermelho: hsl(0, 100%, 67%);
+  --vermelhoClaro: hsl(0, 69%, 94%);
+  --preto: black;
+  --pretoClaro: rgb(150, 150, 150);
+
+  --branco: hsl(0, 0%, 100%);
+  --azulClaro: hsl(221, 100%, 96%);
+  --lavanda: hsl(241, 100%, 89%);
+  --azulPalido: hsl(221, 100%, 96%);
+}
+
+.resumo{
+
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.geral{
+  flex-wrap: wrap;
+  margin: 10px;
+  display: flex;
+  box-shadow: 15px 15px 30px rgb(206, 206, 206);
+  border-radius: 20px;
+}
+
+.resultado{
+  background: var(--azul);
+  width: 250px;
+  text-align: center;
+  color: var(--branco);
+  border-radius: 20px;
+  padding: 30px;
+}
+
+h1{
+  color: var(--lavanda);
+}
+
+.visor{
+  background: var(--azulaGradiente);
+  border-radius: 100px;
+  width: 90px;
+  height: 90px;
+  margin: 25px auto;
+  padding: 30px;
+}
+.tituloVisor{
+  font-size: 50px;
+}
+
+.descVisor{
+ color: var(--lavanda);
+}
+
+.descCard{
+  margin-top: 20px;
+  color: var(--lavanda);
+}
+
+/*Inicio Visor direito*/
+
+.sumario{  
+  width: 250px;
+  min-height: 350px;
+  padding: 35px;  
+}
+
+.sumario h2{
+  margin-bottom: 45px;
+}
+
+.sumario div{
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.desc{
+  color: var(--preto);
+}
+.desc span{
+  color: var(--pretoClaro);
+}
+
+.reacao{
+  color: var(--vermelho);
+  background: var(--vermelhoClaro);
+}
+.memoria{
+  color: var(--amarelo);
+  background: var(--amareloClaro);
+}
+
+.verbal{
+  color: var(--verde);
+  background: var(--verdeClaro);
+}
+
+.visual{
+  color: var(--azul);
+  background: var(--azulClaro);
+}
+
+.sumario button{
+  margin-top: 45px;
+  width: 100%;
+  padding: 15px;
+  border-radius: 50px;
+  border: none;
+  color: var(--branco);
+  background: var(--azulEscuro);
+  cursor: pointer;
+}
+
+button:hover{
+  background: var(--azul);
+}
+
+@media screen and (max-width:650px){
+  .geral{
+    width: 300px;
+  }
+  
+}
