@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'Figtree', sans-serif;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: hsl(47, 88%, 63%);
+}
+.section{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.principal{
+  max-width: 335px;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid black;
+  background: hsl(0, 0%, 100%);
+  box-shadow: 10px 10px 0px 0px rgb(0, 0, 0);
+}
+
+.principalImg img{
+  max-width: 100%;
+}
+
+.infoBasica{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.tag{
+  margin-bottom: 15px;
+  background: hsl(47, 88%, 63%);
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: 800;
+}
+
+.imgPrincipal{
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.dataPubli{
+  margin-bottom: 20px;
+}
+
+.titulo{
+  margin-bottom: 20px;
+}
+
+.tiutloLink{
+  color: black;
+}
+
+.tiutloLink:hover{
+  color: hsl(47, 88%, 63%);
+}
+
+.texto{
+  color: hsl(0, 0%, 50%);
+  margin-bottom: 20px;
+}
+
+.footer{
+  display: flex;
+  align-items: center;
+  font-weight: 800;
+  gap: 10px;
+}
+
